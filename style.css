@@ -121,3 +121,54 @@ body{
     
 }
 
+@media screen and (min-width:1440px){
+    .card__text-rated{
+        display: flex;
+    }
+    .card--title, .card--text{
+
+        text-align: unset;
+        width: 40%;
+    }
+    .card--text{
+        text-align: unset;
+        width: 55%;
+    }
+    .card--title{
+        padding: 2rem 0 ;
+    }
+
+    .card__rated{
+        width: 70%;
+        position: relative;
+    }
+
+    .card--posion-1{
+        position: relative;
+        right: 60%;
+    }
+    .card--posion-2{
+        position: relative;
+        right: 40%;
+    }
+
+    .card__coments{
+        display: flex;
+        margin-top: 4rem;
+        
+    }
+
+    .card__coment{
+       
+        margin: 0.1rem;
+    }
+
+    .card--coment-position-1{
+        position: relative;
+        top: 30px;
+    }
+    .card--coment-position-2{
+        position: relative;
+        top: 60px;
+    }
+} 
