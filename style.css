@@ -121,7 +121,7 @@ body{
     
 }
 
-@media screen and (min-width:1325px){
+@media screen and (min-width:1285px){
     .card__text-rated{
         display: flex;
     }
